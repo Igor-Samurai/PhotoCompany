@@ -1,0 +1,343 @@
+2026-02-23 17:54:31.604 +03:00 [ERR] An error occurred using the connection to database 'MyCompany' on server '(local)'.
+2026-02-23 17:54:31.665 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MyCompany.Domain.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик именованных каналов, error: 40 - Не удалось открыть соединение с SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number: 2, State: 0, Class: 20
+Microsoft.Data.SqlClient.SqlException (0x80131904): При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик именованных каналов, error: 40 - Не удалось открыть соединение с SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number: 2, State: 0, Class: 20
+2026-02-23 19:29:27.571 +03:00 [ERR] An error occurred using the connection to database 'MyCompany' on server '(local)'.
+2026-02-23 19:29:27.628 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MyCompany.Domain.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик именованных каналов, error: 40 - Не удалось открыть соединение с SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number: 2, State: 0, Class: 20
+Microsoft.Data.SqlClient.SqlException (0x80131904): При установлении соединения с SQL Server произошла ошибка, связанная с сетью или с определенным экземпляром. Сервер не найден или недоступен. Убедитесь, что имя экземпляра указано правильно и что на SQL Server разрешены удаленные соединения. (provider: Поставщик именованных каналов, error: 40 - Не удалось открыть соединение с SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): Не удается найти указанный файл.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number: 2, State: 0, Class: 20
+2026-02-23 19:30:23.807 +03:00 [INF] HTTP GET / responded 200 in 2143.9113 ms
+2026-02-23 19:30:23.861 +03:00 [INF] HTTP GET /css/main.min.css responded 200 in 19.9692 ms
+2026-02-23 19:30:23.861 +03:00 [INF] HTTP GET /js/scripts.min.js responded 200 in 19.9675 ms
+2026-02-23 19:30:23.863 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 22.1726 ms
+2026-02-23 19:30:23.888 +03:00 [INF] HTTP GET /scss/fontawesome-all.min.css responded 200 in 1.7147 ms
+2026-02-23 19:30:24.045 +03:00 [INF] HTTP GET /img/bg02.png responded 200 in 0.7842 ms
+2026-02-23 19:30:24.045 +03:00 [INF] HTTP GET /img/bg03.png responded 200 in 0.5934 ms
+2026-02-23 19:30:24.078 +03:00 [INF] HTTP GET /webfonts/fa-solid-900.woff2 responded 200 in 0.7037 ms
+2026-02-23 19:30:24.204 +03:00 [INF] HTTP GET /img/favicon.ico responded 200 in 0.5132 ms
+2026-02-23 19:30:29.854 +03:00 [INF] HTTP GET /img/bg01.png responded 200 in 1.5337 ms
+2026-02-23 19:30:29.855 +03:00 [INF] HTTP GET /img/header.jpg responded 200 in 1.1118 ms
+2026-02-23 19:30:33.574 +03:00 [INF] HTTP GET /Services responded 200 in 63.2278 ms
+2026-02-23 19:30:33.612 +03:00 [INF] HTTP GET /img/1.jpg responded 200 in 2.5388 ms
+2026-02-23 19:30:33.614 +03:00 [INF] HTTP GET /img/volvo-versatile-truck-volvo-fmx-electric-universalnyi-gruzov.jpg responded 200 in 4.4419 ms
+2026-02-23 19:30:33.671 +03:00 [INF] HTTP GET /webfonts/fa-regular-400.woff2 responded 200 in 0.5758 ms
+2026-02-23 19:30:33.671 +03:00 [INF] HTTP GET /img/3.jpg responded 200 in 58.4712 ms
+2026-02-23 19:30:33.671 +03:00 [INF] HTTP GET /img/bobcat-t40-180slp-bobcat-t40-180slp.jpg responded 200 in 54.5426 ms
+2026-02-23 19:30:39.053 +03:00 [INF] HTTP GET /Home/Contacts responded 200 in 109.2156 ms
+2026-02-23 19:30:41.509 +03:00 [INF] HTTP GET /Services responded 200 in 9.9080 ms
+2026-02-23 19:30:42.145 +03:00 [INF] HTTP GET / responded 200 in 8.0438 ms
+2026-02-23 19:32:50.470 +03:00 [INF] HTTP GET /Home/Contacts responded 200 in 5.8603 ms
+2026-02-23 19:32:52.263 +03:00 [INF] HTTP GET /Services responded 200 in 6.2673 ms
+2026-02-23 19:32:53.029 +03:00 [INF] HTTP GET / responded 200 in 3.9963 ms
+2026-02-23 19:32:53.784 +03:00 [INF] HTTP GET /Services responded 200 in 7.7990 ms
+2026-02-23 19:32:54.932 +03:00 [INF] HTTP GET / responded 200 in 3.2589 ms
+2026-02-23 19:33:54.945 +03:00 [INF] HTTP GET /Services responded 200 in 8.1563 ms
+2026-02-23 19:34:37.838 +03:00 [INF] HTTP GET /Services/Show/3 responded 200 in 140.6006 ms
+2026-02-23 19:48:48.716 +03:00 [INF] HTTP GET / responded 200 in 2114.0835 ms
+2026-02-23 19:48:54.539 +03:00 [INF] HTTP GET /Services responded 200 in 69.6561 ms
+2026-02-23 19:48:56.899 +03:00 [INF] HTTP GET /Services/Show/4 responded 200 in 210.7394 ms
+2026-02-23 19:49:01.505 +03:00 [INF] HTTP GET /Home/Contacts responded 200 in 17.2330 ms
+2026-02-23 19:49:04.223 +03:00 [INF] HTTP GET /Home/Contacts responded 200 in 6.8316 ms
+2026-02-23 19:49:24.499 +03:00 [INF] HTTP GET / responded 200 in 5.4577 ms
+2026-02-23 19:49:26.536 +03:00 [INF] HTTP GET /Services responded 200 in 6.5423 ms
+2026-02-23 19:49:31.327 +03:00 [INF] HTTP GET /Services responded 200 in 8.3025 ms
+2026-02-23 19:49:34.145 +03:00 [INF] HTTP GET /Services/Show/3 responded 200 in 16.9048 ms
+2026-02-23 20:31:44.260 +03:00 [INF] HTTP GET / responded 200 in 2200.2243 ms
+2026-02-23 20:31:55.596 +03:00 [INF] HTTP GET /Services responded 200 in 58.1156 ms
+2026-02-23 20:34:15.036 +03:00 [INF] HTTP GET /admin responded 302 in 16.9178 ms
+2026-02-23 20:34:15.233 +03:00 [INF] HTTP GET /account/login responded 200 in 190.2205 ms
+2026-02-23 20:34:34.017 +03:00 [INF] HTTP POST /Account/Login responded 302 in 316.3170 ms
+2026-02-23 20:34:34.124 +03:00 [INF] HTTP GET /admin responded 200 in 99.2563 ms
+2026-02-23 20:34:40.773 +03:00 [INF] HTTP GET /Admin/ServicesEdit responded 200 in 83.3227 ms
+2026-02-23 20:34:40.828 +03:00 [INF] HTTP GET /img/ responded 404 in 22.6889 ms
+2026-02-23 20:38:25.480 +03:00 [INF] HTTP GET /Admin/ServicesEdit responded 200 in 57.3271 ms
+2026-02-23 20:38:25.513 +03:00 [INF] HTTP GET /img/ responded 404 in 0.4454 ms
+2026-02-23 20:48:22.253 +03:00 [INF] HTTP GET / responded 200 in 2120.3096 ms
+2026-02-23 20:48:28.107 +03:00 [INF] HTTP GET /admin responded 200 in 152.2350 ms
+2026-02-23 20:48:31.009 +03:00 [INF] HTTP GET /Admin/ServicesEdit responded 200 in 201.2745 ms
+2026-02-23 20:48:31.039 +03:00 [INF] HTTP GET /img/ responded 404 in 3.6348 ms
+2026-02-23 20:48:51.936 +03:00 [INF] Добавлена/обновлена услуга с ID: 5
+2026-02-23 20:48:51.941 +03:00 [INF] HTTP POST /Admin/ServicesEdit responded 302 in 251.3203 ms
+2026-02-23 20:48:51.953 +03:00 [INF] HTTP GET /Admin responded 200 in 7.4285 ms
+2026-02-23 20:48:56.671 +03:00 [INF] HTTP GET / responded 200 in 9.6521 ms
+2026-02-23 20:48:58.302 +03:00 [INF] HTTP GET /Services responded 200 in 37.1993 ms
+2026-02-23 20:48:58.334 +03:00 [INF] HTTP GET /img/ responded 404 in 1.6276 ms
+2026-02-23 20:49:00.474 +03:00 [INF] HTTP GET /Services/Show/5 responded 200 in 58.4678 ms
+2026-02-23 20:49:00.493 +03:00 [INF] HTTP GET /img/ responded 404 in 0.5837 ms
+2026-02-23 20:49:11.387 +03:00 [INF] HTTP GET /Services/Show/5 responded 200 in 11.5589 ms
+2026-02-23 20:49:11.408 +03:00 [INF] HTTP GET /img/ responded 404 in 0.3873 ms
+2026-02-23 20:49:19.299 +03:00 [INF] HTTP GET /admin responded 200 in 14.0320 ms
+2026-02-23 20:49:21.489 +03:00 [INF] HTTP GET /Admin/ServicesEdit responded 200 in 9.3393 ms
+2026-02-23 20:49:21.514 +03:00 [INF] HTTP GET /img/ responded 404 in 3.3749 ms
+2026-02-23 20:49:30.345 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 3.1222 ms
+2026-02-23 21:25:52.791 +03:00 [INF] HTTP GET / responded 200 in 166.7143 ms
+2026-02-23 21:37:18.146 +03:00 [INF] HTTP GET /Services responded 200 in 71.7315 ms
+2026-02-23 21:37:18.179 +03:00 [INF] HTTP GET /img/ responded 404 in 0.4349 ms
+2026-02-23 21:37:26.497 +03:00 [INF] HTTP GET /Home/Contacts responded 200 in 23.1592 ms
+2026-02-23 21:37:32.460 +03:00 [INF] HTTP GET /Services responded 200 in 7.8173 ms
+2026-02-23 21:37:32.485 +03:00 [INF] HTTP GET /img/ responded 404 in 0.4709 ms
+2026-02-23 21:37:38.767 +03:00 [INF] HTTP GET / responded 200 in 4.8438 ms
+2026-02-23 22:09:15.703 +03:00 [INF] HTTP GET / responded 200 in 2497.4885 ms
+2026-02-23 22:12:03.577 +03:00 [INF] HTTP GET / responded 200 in 2239.4802 ms
+2026-02-23 22:12:51.215 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 38.3553 ms
+2026-02-23 22:13:27.152 +03:00 [INF] HTTP GET / responded 200 in 44.5519 ms
+2026-02-23 22:13:27.194 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 4.6224 ms
+2026-02-23 22:13:47.465 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 35.8131 ms
+2026-02-23 22:14:51.210 +03:00 [INF] HTTP GET / responded 200 in 2260.5193 ms
+2026-02-23 22:15:04.032 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 12.5658 ms
+2026-02-23 22:19:21.153 +03:00 [INF] HTTP GET / responded 200 in 2368.8961 ms
+2026-02-23 22:19:49.305 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 13.7935 ms
+2026-02-23 22:19:59.757 +03:00 [INF] HTTP GET / responded 200 in 23.2851 ms
+2026-02-23 22:19:59.820 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 5.8995 ms
+2026-02-23 22:20:02.793 +03:00 [INF] HTTP GET / responded 200 in 91.9675 ms
+2026-02-23 22:20:02.830 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.5912 ms
+2026-02-23 22:20:03.908 +03:00 [INF] HTTP GET / responded 200 in 9.6834 ms
+2026-02-23 22:20:03.951 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.2179 ms
+2026-02-23 22:20:21.398 +03:00 [INF] HTTP GET / responded 200 in 5.6679 ms
+2026-02-23 22:20:21.431 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.2757 ms
+2026-02-23 22:20:30.031 +03:00 [INF] HTTP GET / responded 200 in 9.0982 ms
+2026-02-23 22:20:30.077 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.2285 ms
+2026-02-23 22:20:31.017 +03:00 [INF] HTTP GET /Services responded 200 in 41.6487 ms
+2026-02-23 22:20:31.058 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.7186 ms
+2026-02-23 22:20:31.073 +03:00 [INF] HTTP GET /img/ responded 404 in 0.0865 ms
+2026-02-23 22:20:32.547 +03:00 [INF] HTTP GET / responded 200 in 4.8151 ms
+2026-02-23 22:20:32.594 +03:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.2317 ms
+2026-02-23 22:24:14.522 +03:00 [INF] HTTP GET / responded 200 in 4.6936 ms
+2026-02-23 22:24:16.443 +03:00 [INF] HTTP GET / responded 200 in 5.5476 ms
+2026-02-23 22:24:30.740 +03:00 [INF] HTTP GET / responded 200 in 2185.5273 ms
+2026-02-23 22:28:52.645 +03:00 [INF] HTTP GET / responded 200 in 2225.1517 ms
+2026-02-23 22:29:35.254 +03:00 [INF] HTTP GET / responded 200 in 20.6651 ms
+2026-02-23 22:29:35.294 +03:00 [INF] HTTP GET /js/scripts.min.js responded 200 in 18.4099 ms
+2026-02-23 22:29:35.294 +03:00 [INF] HTTP GET /css/main.min.css responded 200 in 22.5344 ms
+2026-02-23 22:29:35.302 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 26.4430 ms
+2026-02-23 22:29:35.303 +03:00 [INF] HTTP GET /scss/fontawesome-all.min.css responded 200 in 1.6264 ms
+2026-02-23 22:29:35.535 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 5.6888 ms
+2026-02-23 22:29:35.546 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.4318 ms
+2026-02-23 22:29:35.564 +03:00 [INF] HTTP GET /img/header.jpg responded 200 in 33.4733 ms
+2026-02-23 22:29:35.564 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 1.2612 ms
+2026-02-23 22:29:35.566 +03:00 [INF] HTTP GET /webfonts/fa-solid-900.woff2 responded 200 in 18.7958 ms
+2026-02-23 22:29:36.103 +03:00 [INF] HTTP GET /img/favicon.ico responded 200 in 0.9811 ms
+2026-02-23 22:30:58.284 +03:00 [INF] HTTP GET / responded 200 in 100.9839 ms
+2026-02-23 22:30:58.314 +03:00 [INF] HTTP GET /css/main.min.css responded 200 in 1.3657 ms
+2026-02-23 22:30:58.315 +03:00 [INF] HTTP GET /js/scripts.min.js responded 200 in 2.2604 ms
+2026-02-23 22:30:58.358 +03:00 [INF] HTTP GET /scss/fontawesome-all.min.css responded 200 in 0.8545 ms
+2026-02-23 22:30:58.365 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 52.0284 ms
+2026-02-23 22:30:58.856 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.5081 ms
+2026-02-23 22:30:58.856 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.2348 ms
+2026-02-23 22:30:58.857 +03:00 [INF] HTTP GET /webfonts/fa-solid-900.woff2 responded 200 in 0.6496 ms
+2026-02-23 22:30:58.857 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.2384 ms
+2026-02-23 22:30:58.858 +03:00 [INF] HTTP GET /img/header.jpg responded 200 in 2.0065 ms
+2026-02-23 22:30:59.595 +03:00 [INF] HTTP GET /img/favicon.ico responded 200 in 1.8689 ms
+2026-02-23 22:31:14.943 +03:00 [INF] HTTP GET /Services responded 200 in 57.3302 ms
+2026-02-23 22:31:14.979 +03:00 [INF] HTTP GET /img/ responded 404 in 0.0979 ms
+2026-02-23 22:31:14.984 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.5038 ms
+2026-02-23 22:31:14.987 +03:00 [INF] HTTP GET /img/header.jpg responded 304 in 2.0477 ms
+2026-02-23 22:31:14.988 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.2491 ms
+2026-02-23 22:31:14.990 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.7180 ms
+2026-02-23 22:31:19.455 +03:00 [INF] HTTP GET /Home/Contacts responded 200 in 17.7847 ms
+2026-02-23 22:31:19.484 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.2330 ms
+2026-02-23 22:31:19.484 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.2383 ms
+2026-02-23 22:31:19.484 +03:00 [INF] HTTP GET /img/header.jpg responded 304 in 0.2066 ms
+2026-02-23 22:31:19.484 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.1056 ms
+2026-02-23 22:32:57.278 +03:00 [INF] HTTP GET /Services/Show/1 responded 200 in 149.7119 ms
+2026-02-23 22:32:57.317 +03:00 [INF] HTTP GET /img/header.jpg responded 304 in 0.2028 ms
+2026-02-23 22:32:57.317 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.2562 ms
+2026-02-23 22:32:57.317 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.0922 ms
+2026-02-23 22:32:57.318 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.0817 ms
+2026-02-23 22:32:57.320 +03:00 [INF] HTTP GET /img/360_F_220676590_4zfuo3TKXbys7xkC4Nx0YYFcMzkCkHTf.jpg responded 200 in 2.4257 ms
+2026-02-23 23:22:49.314 +03:00 [INF] HTTP GET / responded 200 in 2182.5535 ms
+2026-02-23 23:22:49.323 +03:00 [INF] HTTP GET /img/bg.png responded 304 in 12.7385 ms
+2026-02-23 23:22:49.400 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 3.4825 ms
+2026-02-23 23:22:49.400 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 3.4827 ms
+2026-02-23 23:22:56.075 +03:00 [INF] HTTP GET /img/header.jpg responded 304 in 2.2299 ms
+2026-02-23 23:22:56.081 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 8.6169 ms
+2026-02-23 23:23:02.725 +03:00 [INF] HTTP GET / responded 200 in 22.8199 ms
+2026-02-23 23:23:02.762 +03:00 [INF] HTTP GET /js/scripts.min.js responded 200 in 13.6803 ms
+2026-02-23 23:23:02.762 +03:00 [INF] HTTP GET /css/main.min.css responded 200 in 17.4926 ms
+2026-02-23 23:23:02.774 +03:00 [INF] HTTP GET /scss/fontawesome-all.min.css responded 200 in 1.6352 ms
+2026-02-23 23:23:02.788 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 39.8197 ms
+2026-02-23 23:23:03.006 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.2768 ms
+2026-02-23 23:23:03.007 +03:00 [INF] HTTP GET /img/header.jpg responded 200 in 1.7343 ms
+2026-02-23 23:23:03.011 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.2317 ms
+2026-02-23 23:23:03.011 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.2111 ms
+2026-02-23 23:23:03.011 +03:00 [INF] HTTP GET /webfonts/fa-solid-900.woff2 responded 200 in 1.3593 ms
+2026-02-23 23:23:03.674 +03:00 [INF] HTTP GET /img/favicon.ico responded 404 in 0.3405 ms
+2026-02-23 23:25:28.528 +03:00 [INF] HTTP GET / responded 200 in 124.0084 ms
+2026-02-23 23:25:28.547 +03:00 [INF] HTTP GET /css/main.min.css responded 200 in 0.9563 ms
+2026-02-23 23:25:28.566 +03:00 [INF] HTTP GET /scss/fontawesome-all.min.css responded 200 in 11.3904 ms
+2026-02-23 23:25:28.567 +03:00 [INF] HTTP GET /js/scripts.min.js responded 200 in 12.5719 ms
+2026-02-23 23:25:28.611 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 57.3167 ms
+2026-02-23 23:25:28.848 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.2046 ms
+2026-02-23 23:25:28.848 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.1859 ms
+2026-02-23 23:25:28.848 +03:00 [INF] HTTP GET /webfonts/fa-solid-900.woff2 responded 200 in 0.7284 ms
+2026-02-23 23:25:29.385 +03:00 [INF] HTTP GET /img/favicon.ico responded 200 in 15.5918 ms
+2026-02-23 23:28:54.010 +03:00 [INF] HTTP GET / responded 200 in 2542.6505 ms
+2026-02-23 23:28:54.053 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 5.6382 ms
+2026-02-23 23:28:54.053 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 6.3425 ms
+2026-02-23 23:28:54.169 +03:00 [INF] HTTP GET /img/favicon.png responded 200 in 13.8251 ms
+2026-02-23 23:28:57.679 +03:00 [INF] HTTP GET / responded 200 in 22.9629 ms
+2026-02-23 23:28:57.713 +03:00 [INF] HTTP GET /css/main.min.css responded 200 in 10.6648 ms
+2026-02-23 23:28:57.713 +03:00 [INF] HTTP GET /js/scripts.min.js responded 200 in 10.6225 ms
+2026-02-23 23:28:57.724 +03:00 [INF] HTTP GET /scss/fontawesome-all.min.css responded 200 in 1.1731 ms
+2026-02-23 23:28:57.724 +03:00 [INF] HTTP GET /img/bg.png responded 200 in 21.0232 ms
+2026-02-23 23:28:57.957 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 1.0740 ms
+2026-02-23 23:28:57.957 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.1971 ms
+2026-02-23 23:28:57.959 +03:00 [INF] HTTP GET /webfonts/fa-solid-900.woff2 responded 200 in 1.1121 ms
+2026-02-23 23:28:58.521 +03:00 [INF] HTTP GET /img/favicon.png responded 200 in 1.3885 ms
+2026-02-23 23:29:01.435 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.2523 ms
+2026-02-23 23:29:01.435 +03:00 [INF] HTTP GET /img/header.jpg responded 304 in 1.3249 ms
+2026-02-23 23:29:03.867 +03:00 [INF] HTTP GET /Services responded 200 in 115.1804 ms
+2026-02-23 23:29:03.903 +03:00 [INF] HTTP GET /img/ responded 404 in 0.1065 ms
+2026-02-23 23:29:03.908 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.5348 ms
+2026-02-23 23:29:03.908 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.2223 ms
+2026-02-23 23:29:03.908 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.1120 ms
+2026-02-23 23:29:09.872 +03:00 [INF] HTTP GET /admin responded 302 in 15.7991 ms
+2026-02-23 23:29:09.981 +03:00 [INF] HTTP GET /account/login responded 200 in 104.7648 ms
+2026-02-23 23:29:10.358 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 3.6850 ms
+2026-02-23 23:29:10.358 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 3.8095 ms
+2026-02-23 23:29:10.358 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 3.7970 ms
+2026-02-23 23:29:12.297 +03:00 [INF] HTTP POST /Account/Login responded 302 in 300.9640 ms
+2026-02-23 23:29:12.395 +03:00 [INF] HTTP GET /admin responded 200 in 88.8130 ms
+2026-02-23 23:29:12.424 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.8095 ms
+2026-02-23 23:29:12.424 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 1.2989 ms
+2026-02-23 23:29:12.442 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 17.8656 ms
+2026-02-23 23:29:15.074 +03:00 [INF] HTTP GET /Admin/ServiceCategoriesEdit/1 responded 200 in 74.4650 ms
+2026-02-23 23:29:15.106 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 1.4815 ms
+2026-02-23 23:29:15.107 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.8423 ms
+2026-02-23 23:29:15.112 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 1.3455 ms
+2026-02-23 23:29:34.739 +03:00 [INF] Добавлена/обновлена категория услуги с ID: 1
+2026-02-23 23:29:34.743 +03:00 [INF] HTTP POST /Admin/ServiceCategoriesEdit/1 responded 302 in 177.9190 ms
+2026-02-23 23:29:34.752 +03:00 [INF] HTTP GET /Admin responded 200 in 5.4834 ms
+2026-02-23 23:29:34.788 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.7690 ms
+2026-02-23 23:29:34.789 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.9141 ms
+2026-02-23 23:29:34.791 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.7672 ms
+2026-02-23 23:29:36.318 +03:00 [INF] HTTP GET /Admin/ServiceCategoriesEdit/2 responded 200 in 7.0640 ms
+2026-02-23 23:29:36.388 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 26.8402 ms
+2026-02-23 23:29:36.391 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 29.6140 ms
+2026-02-23 23:29:36.391 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 29.0631 ms
+2026-02-23 23:29:41.937 +03:00 [INF] Добавлена/обновлена категория услуги с ID: 2
+2026-02-23 23:29:41.938 +03:00 [INF] HTTP POST /Admin/ServiceCategoriesEdit/2 responded 302 in 14.2905 ms
+2026-02-23 23:29:41.947 +03:00 [INF] HTTP GET /Admin responded 200 in 5.7634 ms
+2026-02-23 23:29:41.977 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.5594 ms
+2026-02-23 23:29:41.978 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.4729 ms
+2026-02-23 23:29:41.979 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.5821 ms
+2026-02-23 23:29:43.838 +03:00 [INF] HTTP GET /Admin/ServiceCategoriesEdit/3 responded 200 in 6.8959 ms
+2026-02-23 23:29:43.869 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 1.8996 ms
+2026-02-23 23:29:43.872 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 2.4002 ms
+2026-02-23 23:29:43.873 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.6192 ms
+2026-02-23 23:29:53.980 +03:00 [INF] Добавлена/обновлена категория услуги с ID: 3
+2026-02-23 23:29:53.980 +03:00 [INF] HTTP POST /Admin/ServiceCategoriesEdit/3 responded 302 in 9.4422 ms
+2026-02-23 23:29:53.990 +03:00 [INF] HTTP GET /Admin responded 200 in 5.5283 ms
+2026-02-23 23:29:54.019 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 1.4829 ms
+2026-02-23 23:29:54.020 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.3426 ms
+2026-02-23 23:29:54.020 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.3679 ms
+2026-02-23 23:29:58.541 +03:00 [INF] HTTP GET /Admin/ServiceCategoriesEdit/3 responded 200 in 6.1277 ms
+2026-02-23 23:29:58.570 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.5922 ms
+2026-02-23 23:29:58.575 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 3.9079 ms
+2026-02-23 23:29:58.576 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.3909 ms
+2026-02-23 23:30:07.489 +03:00 [INF] Добавлена/обновлена категория услуги с ID: 3
+2026-02-23 23:30:07.490 +03:00 [INF] HTTP POST /Admin/ServiceCategoriesEdit/3 responded 302 in 9.6302 ms
+2026-02-23 23:30:07.498 +03:00 [INF] HTTP GET /Admin responded 200 in 4.2232 ms
+2026-02-23 23:30:07.540 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 1.0138 ms
+2026-02-23 23:30:07.541 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.3745 ms
+2026-02-23 23:30:07.543 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.5833 ms
+2026-02-23 23:30:10.982 +03:00 [INF] HTTP GET /Admin/ServicesEdit/1 responded 200 in 71.6328 ms
+2026-02-23 23:30:11.009 +03:00 [INF] HTTP GET /img/bg01.png responded 404 in 0.4360 ms
+2026-02-23 23:30:13.174 +03:00 [INF] HTTP GET /img/bg02.png responded 404 in 0.3608 ms
+2026-02-23 23:30:13.174 +03:00 [INF] HTTP GET /img/bg03.png responded 404 in 0.3656 ms

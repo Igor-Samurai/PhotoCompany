@@ -1,0 +1,64 @@
+wwwroot\css\fontawesome-all.min.css
+wwwroot\css\main.css
+wwwroot\css\main.min.css
+wwwroot\img\2.jpg
+wwwroot\img\3.jpg
+wwwroot\img\360_F_220676590_4zfuo3TKXbys7xkC4Nx0YYFcMzkCkHTf.jpg
+wwwroot\img\bg.png
+wwwroot\img\bgf.jpg
+wwwroot\img\bobcat-t40-180slp-bobcat-t40-180slp.jpg
+wwwroot\img\favicon.ico
+wwwroot\img\favicon.png
+wwwroot\img\header.jpg
+wwwroot\img\volvo-versatile-truck-volvo-fmx-electric-universalnyi-gruzov.jpg
+wwwroot\js\breakpoints.min.js
+wwwroot\js\browser.min.js
+wwwroot\js\jquery.dropotron.min.es5.js
+wwwroot\js\jquery.dropotron.min.es5.min.js
+wwwroot\js\jquery.dropotron.min.js
+wwwroot\js\jquery.min.js
+wwwroot\js\main.js
+wwwroot\js\scripts.js
+wwwroot\js\scripts.min.js
+wwwroot\js\util.js
+wwwroot\scss\fontawesome-all.min.css
+wwwroot\scss\libs\_breakpoints.scss
+wwwroot\scss\libs\_functions.scss
+wwwroot\scss\libs\_html-grid.scss
+wwwroot\scss\libs\_mixins.scss
+wwwroot\scss\libs\_vars.scss
+wwwroot\scss\libs\_vendor.scss
+wwwroot\scss\main.scss
+wwwroot\webfonts\fa-brands-400.eot
+wwwroot\webfonts\fa-brands-400.svg
+wwwroot\webfonts\fa-brands-400.ttf
+wwwroot\webfonts\fa-brands-400.woff
+wwwroot\webfonts\fa-brands-400.woff2
+wwwroot\webfonts\fa-regular-400.eot
+wwwroot\webfonts\fa-regular-400.svg
+wwwroot\webfonts\fa-regular-400.ttf
+wwwroot\webfonts\fa-regular-400.woff
+wwwroot\webfonts\fa-regular-400.woff2
+wwwroot\webfonts\fa-solid-900.eot
+wwwroot\webfonts\fa-solid-900.svg
+wwwroot\webfonts\fa-solid-900.ttf
+wwwroot\webfonts\fa-solid-900.woff
+wwwroot\webfonts\fa-solid-900.woff2
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\css\fontawesome-all.min.css
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\css\main.css
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\css\main.min.css
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\breakpoints.min.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\browser.min.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\jquery.dropotron.min.es5.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\jquery.dropotron.min.es5.min.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\jquery.dropotron.min.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\jquery.min.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\main.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\scripts.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\scripts.min.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\js\util.js
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\scss\fontawesome-all.min.css
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\webfonts\fa-brands-400.svg
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\webfonts\fa-regular-400.svg
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\webfonts\fa-solid-900.svg
+C:\Users\User\Desktop\ПЕТ проект\MyCompany_source_code (1)\MyCompany\MyCompany\wwwroot\img\favicon.ico

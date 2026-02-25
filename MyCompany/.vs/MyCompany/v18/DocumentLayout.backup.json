@@ -1,0 +1,802 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_metapartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_metapartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\admin\\servicesedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\admin\\servicesedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\admin\\servicecategoriesedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\admin\\servicecategoriesedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\controllers\\admin\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\admin\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\controllers\\admin\\servicecategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\admin\\servicecategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\controllers\\admin\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\admin\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\entities\\servicecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\entities\\servicecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\enums\\servicetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\enums\\servicetypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\repositories\\abstract\\iservicecategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\repositories\\abstract\\iservicecategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\repositories\\abstract\\iservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\repositories\\abstract\\iservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\repositories\\entityframework\\efservicecategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\repositories\\entityframework\\efservicecategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\repositories\\entityframework\\efservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\repositories\\entityframework\\efservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\domain\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\infrastructure\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\infrastructure\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\infrastructure\\helperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\infrastructure\\helperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\migrations\\20241230170705__initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\migrations\\20241230170705__initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\models\\viewcomponents\\menuviewcomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\models\\viewcomponents\\menuviewcomponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\models\\servicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\models\\servicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\services\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\services\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_csspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_csspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_headerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\shared\\_scriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\shared\\_scriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\bundleconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\compilerconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\compilerconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|c:\\users\\user\\desktop\\\u043F\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\\mycompany_source_code (1)\\mycompany\\mycompany\\mycompany.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9ED0611-1F45-43E4-8616-A6584506AC86}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\mycompany.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:33.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:42:02.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:18.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Services.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\Admin\\Services.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\Admin\\Services.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\Admin\\Services.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\Admin\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:22.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\appsettings.json",
+              "RelativeDocumentMoniker": "MyCompany\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\appsettings.json",
+              "RelativeToolTip": "MyCompany\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T14:54:56.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_SidebarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_SidebarPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_SidebarPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_SidebarPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_SidebarPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:35:52.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:41.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCategoriesEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Admin\\ServiceCategoriesEdit.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Admin\\ServiceCategoriesEdit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Admin\\ServiceCategoriesEdit.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Admin\\ServiceCategoriesEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:58.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_MetaPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_MetaPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_MetaPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_MetaPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_MetaPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:40:54.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicesEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Admin\\ServicesEdit.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Admin\\ServicesEdit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Admin\\ServicesEdit.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Admin\\ServicesEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:53.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:14.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\Admin\\Core.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\Admin\\Core.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\Admin\\Core.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\Admin\\Core.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:53:53.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:09.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceCategories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\Admin\\ServiceCategories.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\Admin\\ServiceCategories.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Controllers\\Admin\\ServiceCategories.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\Admin\\ServiceCategories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:27.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ServiceCategory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Entities\\ServiceCategory.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Entities\\ServiceCategory.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Entities\\ServiceCategory.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Entities\\ServiceCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:04.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Entities\\Service.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Entities\\Service.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Entities\\Service.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Entities\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:44:00.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Entities\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Entities\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:54.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceTypeEnum.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Enums\\ServiceTypeEnum.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Enums\\ServiceTypeEnum.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Enums\\ServiceTypeEnum.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Enums\\ServiceTypeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:47.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IServiceCategoriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\Abstract\\IServiceCategoriesRepository.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Repositories\\Abstract\\IServiceCategoriesRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\Abstract\\IServiceCategoriesRepository.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Repositories\\Abstract\\IServiceCategoriesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:41.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IServicesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\Abstract\\IServicesRepository.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Repositories\\Abstract\\IServicesRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\Abstract\\IServicesRepository.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Repositories\\Abstract\\IServicesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:36.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EFServiceCategoriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\EntityFramework\\EFServiceCategoriesRepository.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Repositories\\EntityFramework\\EFServiceCategoriesRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\EntityFramework\\EFServiceCategoriesRepository.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Repositories\\EntityFramework\\EFServiceCategoriesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:29.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EFServicesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\EntityFramework\\EFServicesRepository.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\Repositories\\EntityFramework\\EFServicesRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\Repositories\\EntityFramework\\EFServicesRepository.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\Repositories\\EntityFramework\\EFServicesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:24.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\AppDbContext.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:17.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\DataManager.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\DataManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Domain\\DataManager.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\DataManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:12.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Infrastructure\\AppConfig.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Infrastructure\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Infrastructure\\AppConfig.cs",
+              "RelativeToolTip": "MyCompany\\Infrastructure\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:05.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HelperDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Infrastructure\\HelperDTO.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Infrastructure\\HelperDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Infrastructure\\HelperDTO.cs",
+              "RelativeToolTip": "MyCompany\\Infrastructure\\HelperDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:43:00.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241230170705__initial.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Migrations\\20241230170705__initial.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Migrations\\20241230170705__initial.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Migrations\\20241230170705__initial.cs",
+              "RelativeToolTip": "MyCompany\\Migrations\\20241230170705__initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:42:41.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MyCompany\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:42:36.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MenuViewComponents.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Models\\ViewComponents\\MenuViewComponents.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Models\\ViewComponents\\MenuViewComponents.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Models\\ViewComponents\\MenuViewComponents.cs",
+              "RelativeToolTip": "MyCompany\\Models\\ViewComponents\\MenuViewComponents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:42:26.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "MyCompany\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:42:21.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Models\\ServiceDTO.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Models\\ServiceDTO.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Models\\ServiceDTO.cs",
+              "RelativeToolTip": "MyCompany\\Models\\ServiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:42:16.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:42:09.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Home\\Contacts.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Home\\Contacts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:46.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Services\\Show.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Services\\Show.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Services\\Show.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Services\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:28.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:21.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_CssPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_CssPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_CssPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_CssPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_CssPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:13.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_FooterPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_FooterPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_FooterPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_FooterPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_FooterPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:41:09.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:40:59.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_ScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_ScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_ScriptsPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_ScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:40:49.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:40:35.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:40:29.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "bundleconfig.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\bundleconfig.json",
+              "RelativeDocumentMoniker": "MyCompany\\bundleconfig.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\bundleconfig.json",
+              "RelativeToolTip": "MyCompany\\bundleconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T16:40:13.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_HeaderPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_HeaderPartial.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Shared\\_HeaderPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Views\\Shared\\_HeaderPartial.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Shared\\_HeaderPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T16:35:42.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "compilerconfig.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\compilerconfig.json",
+              "RelativeDocumentMoniker": "MyCompany\\compilerconfig.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\compilerconfig.json",
+              "RelativeToolTip": "MyCompany\\compilerconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T16:40:06.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Program.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\Program.cs",
+              "RelativeToolTip": "MyCompany\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwE8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T16:39:44.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MyCompany",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\MyCompany.csproj",
+              "RelativeDocumentMoniker": "MyCompany\\MyCompany.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041F\u0415\u0422 \u043F\u0440\u043E\u0435\u043A\u0442\\MyCompany_source_code (1)\\MyCompany\\MyCompany\\MyCompany.csproj",
+              "RelativeToolTip": "MyCompany\\MyCompany.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T14:48:44.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
